@@ -1,0 +1,49 @@
+.header {
+    align-items: center;
+    background-color: #ffffff;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100; 
+    width: 100%;  
+}
+.header__navOne{
+    margin-left: 117px;
+}
+.header___navTwo{
+    margin-right: 101px;
+}
+.header__optionOne{
+    margin-right: 32px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.header__optionOne:hover{
+    font-weight: 600;
+    text-decoration: underline;
+    color: #5ECE7B; 
+    text-decoration-thickness: 3px;
+    text-underline-offset: 30px;
+    transition: all 400ms ease-in-out;
+}
+.header__downwardPointer{
+    margin-right: 22px;
+    align-content: center;
+}
+.header__dollarSign{
+    margin-right: 10px;
+    font-weight: 400;
+    color: #1D1F22;
+    font-size: 18px;
+}
+.header_basketCount{
+    border-radius: 50%;
+    background-color: #1D1F22;
+    color: #ffffff;
+    font-weight: 700;
+    margin-left: -2.5px;
+    display: none;
+    font-weight: 14px; 
+}
