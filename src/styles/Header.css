@@ -10,7 +10,7 @@
     width: 100%;  
 }
 .header__navOne{
-    margin-left: 117px;
+    margin-left: 105px;
 }
 .header___navTwo{
     margin-right: 101px;
@@ -27,6 +27,7 @@
     text-decoration-thickness: 3px;
     text-underline-offset: 30px;
     transition: all 400ms ease-in-out;
+    cursor: pointer;
 }
 .header__downwardPointer{
     margin-right: 22px;

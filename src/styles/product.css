@@ -1,0 +1,18 @@
+.product__name {
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 160%;
+    color: #1D1F22;
+  }
+
+  .product__price {
+    font-weight: 500;
+    color: #1D1F22
+  }
+
+  .product:hover {
+    box-shadow: 1px 3px 30px rgb(167, 166, 166);
+    cursor: pointer;
+  }
+  
