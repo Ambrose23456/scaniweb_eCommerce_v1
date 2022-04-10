@@ -1,0 +1,18 @@
+.cartOverlay{
+    width: 325px;
+    Height: 540px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 900px;
+    top: 78px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartOverlay__headerTitle{
+    display: inline-block;
+    align-items: left;
+    margin-bottom: 10px;
+    margin-left: 16px;
+}
+

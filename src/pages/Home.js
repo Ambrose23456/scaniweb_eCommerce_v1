@@ -1,10 +1,13 @@
 import React, { Component } from "react";
-import Product from "./Product";
+import Product from "../components/Product";
 import '../styles/home.css'
+import CartOverLay from "./cartOverLay";
 
 export default class Home extends Component {
   render() {
     return (
+      <React.Fragment>
+      <CartOverLay />
       <div className="home">
         <div className="home__container">
         <div >
@@ -22,6 +25,7 @@ export default class Home extends Component {
         </div>
         </div>
       </div>
+      </React.Fragment>
     );
   }
 }
