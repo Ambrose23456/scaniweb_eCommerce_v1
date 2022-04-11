@@ -1,18 +1,71 @@
-.cartOverlay{
+.Cartoverlay{
+    display: flex;
+    flex-direction: column;
+    height: 540px;
     width: 325px;
-    Height: 540px;
     background-color: #FFFFFF;
     position: absolute;
-    left: 900px;
-    top: 78px;
+    left: 950px;
+}
+
+.Cartoverlay__title{
+    margin-left: 16px;
+}
+
+.Cartoverlay__buttons{
     display: flex;
     justify-content: space-between;
 }
 
-.cartOverlay__headerTitle{
-    display: inline-block;
-    align-items: left;
-    margin-bottom: 10px;
+.total{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #1D1F22;
+    margin-bottom: 35px;
     margin-left: 16px;
+
+}
+.price{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    margin-bottom: 37px;
+    margin-right: 20px;
 }
 
+.Cartoverlay__buttons{
+    margin-left: 13px;
+    margin-right: 20px;
+    position: sticky;
+    z-index: 1;
+}
+.viewbag button{
+    position: static;
+    width: 140px;
+    height: 43px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #1D1F22;
+    
+}
+
+.checkout button{
+    width: 140px;
+    height: 43px;
+    left: 0px;
+    top: 0px;
+    background: #5ECE7B;
+    color: white;
+    border: none;
+}
+
+.sumTotal{
+    display: flex;
+    justify-content: space-between;   
+}

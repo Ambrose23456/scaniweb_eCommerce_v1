@@ -1,65 +1,119 @@
-.cartOverlayItem{
-    width: 293px;
-    height: 137px;
-    display: flex;
-    border: none;
-    position: static;
+.Cartoverlaycomp{
     margin-left: 16px;
     margin-right: 16px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 52px;
     
-}
-
-.cartOverlayItem__itemLeft{
-   border: 1px solid black; 
-}
-
-.cartOverlayItem__itemRight{
-border: 1px solid black;
-margin-left: 10px;
-display: flex;
-flex-direction: column;
-gap: 25px;
-}
-
-
-.cartOverlayItem__itemRightButton{
-    width: 24px;
-    height: 24px;
-    border: 1px solid #1D1F22;
-    background-color: #FFFFFF;
-}
-.cartOverlayItem__itemQuantity{
-    font-size: 16px;
-}
-.cartOverlayitem__itemName{
-font-weight: 300;
-font-size: 16px;
-line-height: 160%;
-
-}
-.cartOverlayItem__itemDescription{
-font-weight: 300;
-font-size: 16px;
-line-height: 160%;
-color: #1D1F22;
-}
-.cartOverlayItem__price{
-font-weight: 500;
-text-align: left;
-margin-top: 5px;
-margin-bottom: 27px;
-}
-
-.cartOverlayItem__itemLeftButton{
-    width: 24px;
-    height: 24px;
-    font-weight: 16px;
-    margin-left: 4px;
-    background-color: #FFFFFF;
-    border: 1px solid #1D1F22;
-    color: #1D1F22;
-    font-weight: 600;
-}
-.cartOverlayItem__imagePreview{
-    margin-left: 20px;
-}
+ }
+ 
+ .cartinfo__left{
+     display: flex;
+     flex-direction: column;
+     margin-top: 25px;
+ }
+ 
+ .size__button{
+     display: flex;
+     margin-top: 27px;
+     
+ }
+ 
+ .brand{
+     font-family: Raleway;
+     font-size: 16px;
+     font-weight: 300;
+     line-height: 26px;
+     letter-spacing: 0px;
+     text-align: left;
+ 
+ }
+ 
+ .item__type{
+     font-family: Raleway;
+     font-size: 16px;
+     font-weight: 300;
+     line-height: 26px;
+     letter-spacing: 0px;
+     text-align: left;
+ }
+ 
+ .item__price{
+     font-size: 16px;
+     font-weight: 600;
+     line-height: 26px;
+     letter-spacing: 0em;
+     margin-top: 13px;
+     
+ }
+ 
+ .btn__S button{
+     width: 24px;
+     height: 24px;
+     font-family: 'Source Sans Pro';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 160%;
+     margin-right: 8px;
+     border: 1px solid #1D1F22;
+     box-sizing: border-box;
+     background-color: #FFFFFF;
+ }
+ 
+ .btn__M button{
+     font-family: 'Source Sans Pro';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 160%;
+     width: 24px;
+     height: 24px;
+     color: #A6A6A6;
+     border: 1px solid #1D1F22;
+     
+ }
+ 
+ .cartinfo__right{
+     display: flex;
+     flex-direction: row;
+     margin-top: 23px;
+ }
+ 
+ .change__quantity{
+     margin-right: 10px;
+     margin-top: 15px;
+ }
+ 
+ .plus button{
+     margin-bottom: 30px;
+     left: 0%;
+     right: 0%;
+     top: 0%;
+     bottom: 0%;
+     height: 24px;
+     width: 24px;
+     border: 1px solid #1D1F22;
+     box-sizing: border-box;
+     background-color: #FFFFFF;
+ }
+ 
+ .minus button{
+     left: 0%;
+     right: 0%;
+     top: 0%;
+     bottom: 0%;
+     height: 24px;
+     width: 24px;
+     border: 1px solid #1D1F22;
+     box-sizing: border-box;
+     background-color: #FFFFFF;
+ }
+ 
+ .quantity {
+     margin-bottom: 30px;
+ }
+ 
+ .preview__Images{
+     height: 142px;
+ }
